@@ -19,15 +19,16 @@ This repository follows a **decision-first** approach where every implementation
 ├── README.md                 # This file
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── STRUCTURE.md             # Detailed structure documentation
-├── .github/                  # GitHub workflows and templates
-│   ├── workflows/
-│   │   ├── ci.yml           # Continuous integration
-│   │   ├── security-scan.yml # Security scanning
-│   │   └── cost-analysis.yml # Cost analysis automation
-│   └── ISSUE_TEMPLATE/      # Issue templates
-├── labs/                     # Individual lab projects
-│   ├── _template/           # Lab template for new projects
-│   └── [lab-name]/          # Individual lab directories
+├── engineering-domains/      # Engineering domain implementations
+│   ├── vpc-networking-engineering/
+│   ├── cicd-automation-engineering/
+│   ├── security-and-compliance-engineering/
+│   ├── application-architecture-engineering/
+│   ├── database-services-engineering/
+│   ├── conversational-ai-engineering/
+│   ├── rag-applications-engineering/
+│   ├── data-engineering-analytics-engineering/
+│   └── ai-powered-development-engineering/
 ├── shared/                   # Shared utilities and patterns
 │   ├── infrastructure/      # IaC templates and modules
 │   ├── scripts/             # Utility scripts
@@ -44,27 +45,34 @@ This repository follows a **decision-first** approach where every implementation
     └── analysis/            # Cost, security, reliability analysis tools
 ```
 
-## Labs
+## Engineering Domains
 
-Each lab follows a consistent structure:
+Each engineering domain follows a consistent structure:
 
-- **Problem & Context**: What problem are we solving?
-- **Decision Record**: Why this approach? What alternatives were considered?
-- **Implementation**: Production-ready code with tests
-- **Tradeoffs**: Security, reliability, cost, maintainability analysis
-- **Validation**: How was this validated? What metrics?
-- **Lessons Learned**: What would we do differently?
+- **Business Context**: Problem statement, requirements, and constraints
+- **Architecture**: System design, components, and integration patterns
+- **Implementation**: Step-by-step implementation guide
+- **Validation**: Testing, verification, and success criteria
+- **Executions**: Detailed execution guides for specific patterns
 
-### Available Labs
+### Available Engineering Domains
 
-*Labs will be listed here as they are added*
+1. **VPC Networking Engineering** - Foundational network infrastructure architecture
+2. **CI/CD Automation Engineering** - Production-ready delivery automation
+3. **Security and Compliance Engineering** - Security and governance
+4. **Application Architecture Engineering** - Full-stack cloud-native applications
+5. **Database Services Engineering** - Data layer architecture and optimization
+6. **Conversational AI Engineering** - Conversational AI applications
+7. **RAG Applications Engineering** - Knowledge-grounded AI applications
+8. **Data Engineering Analytics Engineering** - Data engineering workflows
+9. **AI-Powered Development Engineering** - Developer productivity and tooling
 
 ## Getting Started
 
 1. Review [STRUCTURE.md](./STRUCTURE.md) for detailed organization
 2. Read [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines
-3. Explore existing labs in the `labs/` directory
-4. Use `labs/_template/` as a starting point for new labs
+3. Explore engineering domains in the `engineering-domains/` directory
+4. Each domain contains README.md with navigation and learning paths
 
 ## Operating Standards
 
