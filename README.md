@@ -1,6 +1,6 @@
-# Nextwork Cloud Engineering Labs
+# Cloud Engineering Systems
 
-Decision-first cloud engineering labs with validated implementations, documented tradeoffs, and curated feature projects derived from repeated hands-on work.
+Decision-first cloud engineering systems with validated implementations, documented tradeoffs, and curated feature projects derived from repeated hands-on work.
 
 ## Philosophy
 
