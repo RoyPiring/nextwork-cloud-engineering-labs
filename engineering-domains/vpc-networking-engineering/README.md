@@ -20,10 +20,17 @@ This domain tells the story of designing secure, scalable network infrastructure
 
 The `executions/` directory contains detailed guides for specific networking implementations:
 
-1. **[Subnet Segmentation](./executions/subnet-segmentation.md)** - Network isolation and address planning
-2. **[Routing Boundaries](./executions/routing-boundaries.md)** - Route table configuration and traffic control
-3. **[Flow Logs Validation](./executions/flow-logs-validation.md)** - Network monitoring and observability
+1. **[Networking Introduction](./executions/networking-introduction.md)** - Cloud networking fundamentals and design principles
+2. **[Subnet Segmentation](./executions/subnet-segmentation.md)** - Network isolation and address planning
+3. **[EC2 Networking](./executions/ec2-networking.md)** - Compute resource networking and security groups
 4. **[Isolated Network Test](./executions/isolated-network-test.md)** - Security boundary validation
+5. **[Network Security Groups](./executions/network-security-groups.md)** - Defense-in-depth network security
+6. **[VPC Endpoints](./executions/vpc-endpoints.md)** - Private connectivity to AWS services
+7. **[Routing Boundaries](./executions/routing-boundaries.md)** - Route table configuration and traffic control
+8. **[S3 Networking](./executions/s3-networking.md)** - Object storage network access patterns
+9. **[CloudFront Integration](./executions/cloudfront-integration.md)** - Global content delivery network integration
+10. **[Flow Logs Validation](./executions/flow-logs-validation.md)** - Network monitoring and observability
+11. **[VPC Peering Advanced](./executions/vpc-peering-advanced.md)** - Multi-VPC connectivity patterns
 
 ## Learning Path
 
