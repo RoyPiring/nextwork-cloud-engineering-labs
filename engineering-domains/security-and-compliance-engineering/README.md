@@ -21,9 +21,10 @@ This domain tells the story of implementing comprehensive security controls foll
 The `executions/` directory contains detailed guides for specific security implementations:
 
 1. **[IAM Least Privilege](./executions/iam-least-privilege.md)** - Identity and access management with least-privilege principles
-2. **[Boundary Enforcement](./executions/boundary-enforcement.md)** - Network and service boundary security
-3. **[Evidence Collection](./executions/evidence-collection.md)** - Security monitoring and audit logging
-4. **[Compliance Checklist](./executions/compliance-checklist.md)** - Compliance validation and reporting
+2. **[Boundary Enforcement](./executions/boundary-enforcement.md)** - Encryption and key management (KMS)
+3. **[Secrets Management](./executions/secrets-management.md)** - Secure credential storage and rotation
+4. **[Evidence Collection](./executions/evidence-collection.md)** - Threat detection with GuardDuty
+5. **[Compliance Checklist](./executions/compliance-checklist.md)** - Security monitoring and compliance
 
 ## Principal Engineering Decisions
 

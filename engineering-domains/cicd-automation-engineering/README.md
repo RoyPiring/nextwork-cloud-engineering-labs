@@ -20,10 +20,15 @@ This domain tells the story of building automated, repeatable software delivery 
 
 The `executions/` directory contains detailed guides for specific automation implementations:
 
-1. **[Idempotent Provisioning](./executions/idempotent-provisioning.md)** - Infrastructure as Code with Terraform and CloudFormation
-2. **[Environment Bootstrap](./executions/environment-bootstrap.md)** - Automated environment setup and configuration
-3. **[Guardrail Enforcement](./executions/guardrail-enforcement.md)** - Security and compliance checks in pipelines
-4. **[Rollback Procedure](./executions/rollback-procedure.md)** - Deployment rollback and recovery procedures
+1. **[CI/CD Introduction](./executions/cicd-introduction.md)** - DevOps principles and CI/CD concepts
+2. **[Environment Bootstrap](./executions/environment-bootstrap.md)** - Development environment setup (VS Code)
+3. **[Idempotent Provisioning](./executions/idempotent-provisioning.md)** - Infrastructure as Code with Terraform
+4. **[Infrastructure CloudFormation](./executions/infrastructure-cloudformation.md)** - AWS-native infrastructure automation
+5. **[Source Control GitHub](./executions/source-control-github.md)** - GitHub integration and workflows
+6. **[Package Management CodeArtifact](./executions/package-management-codeartifact.md)** - Dependency and artifact management
+7. **[Build Automation CodeBuild](./executions/build-automation-codebuild.md)** - Automated build and test execution
+8. **[Rollback Procedure](./executions/rollback-procedure.md)** - Deployment automation with CodeDeploy
+9. **[Guardrail Enforcement](./executions/guardrail-enforcement.md)** - Complete CI/CD pipeline orchestration
 
 ## Principal Engineering Decisions
 
